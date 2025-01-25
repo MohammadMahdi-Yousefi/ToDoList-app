@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.Todo {
+  text-align: center;
+  margin: 50px auto;
+  width: 70%;
+}
+.input input {
+  width: 100%;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input label {
+  font-size: 16px;
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+.button {
+  border: none;
+  padding: 8px 16px;
+  text-align: left;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-self: flex-start;
+}
+.List {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.List h2 {
+  text-align: left;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(236, 234, 234);
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px 32px;
+}
